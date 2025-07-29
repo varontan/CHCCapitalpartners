@@ -1,89 +1,98 @@
 # CHCCapitalpartners
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CHC Capital Partners</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <h1>CHC Capital Partners</h1>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#presence">Global Presence</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+/* General Styles */
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
 
-  <section id="home" class="hero">
-    <div class="container">
-      <h2>Global Vision. Local Expertise. Trusted Partners.</h2>
-      <p>We drive cross-border M&A, capital markets activity, and strategic growth — where strategy, capital, expertise, and insight connect.</p>
-      <a href="#about" class="btn">Learn More</a>
-    </div>
-  </section>
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
 
-  <section id="about" class="about">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>CHC Capital Partners specializes in mergers and acquisitions, capital markets, strategic and financial advisory. Our mission is to empower clients through seamless cross-border execution, informed decision-making, and integrated capital solutions.</p>
-    </div>
-  </section>
+h1, h2, h3 {
+  color: #0a1f44;
+}
 
-  <section id="services" class="services">
-    <div class="container">
-      <h2>Our Services</h2>
-      <ul class="service-list">
-        <li><strong>Mergers & Acquisitions</strong></li>
-        <li><strong>Capital Markets</strong></li>
-        <li><strong>Strategic Advisory</strong></li>
-        <li><strong>Financial Advisory</strong></li>
-      </ul>
-    </div>
-  </section>
+/* Partner Section */
+.partner-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
 
-  <section id="presence" class="presence">
-    <div class="container">
-      <h2>Global Presence</h2
-      <p>With deep expertise across Europe,  Asia, the Americas, and Middle East, we provide sophisticated solutions tailored to complex transactions and high-value assets. We partner with entrepreneurs, corporations, private equity and venture capital firms, and high-net-worth individuals to unlock value and navigate global markets with confidence.</p>
-    </div>
-  </section>
-  
- <section id="partners" class="partners">
-    <div class="container">
-      <h2>Our Core Partners</h2>
-      <p>At CHC Capital Partners, our leadership team is composed of seasoned professionals with decades of global financial experience. Each core partner brings specialized expertise across M&A, investment banking, private equity, and strategic advisory.</p>
-      <ul class="partner-list">
-        <li><strong>Jane Smith</strong> – Managing Partner, M&A</li>
-        <li><strong>David Chen</strong> – Partner, Capital Markets</li>
-        <li><strong>Sara Al-Mansoori</strong> – Partner, Strategic Advisory</li>
-        <li><strong>Lucas Fernández</strong> – Partner, Cross-Border Transactions</li>
-      </ul>
-    </div>
-  </section>
-  
-  <section id="contact" class="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <p>Email: <a href="mailto:info@chccapitalpartners.com">info@chccapitalpartners.com</a></p>
-      <p>Phone: +44 7536280388</p>
-    </div>
-  </section>
+.partner-card img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 CHC Capital Partners. All rights reserved.</p>
-    </div>
-  </footer>
-</body>
-</html>
+.partner-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  color: #0a1f44;
+}
 
+.partner-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Services Grid */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.service-item {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.service-item:last-child {
+  border-bottom: none;
+}
+
+.service-item .icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.service-item .content h3 {
+  font-size: 1.4rem;
+  margin: 0 0 0.5rem;
+  color: #0a1f44;
+}
+
+.service-item .content p {
+  font-size: 1rem;
+  margin: 0 0 0.75rem;
+  color: #333;
+}
+
+.service-item .content a {
+  font-weight: 600;
+  color: #0a1f44;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.service-item .content a:hover {
+  border-color: #0a1f44;
+}
