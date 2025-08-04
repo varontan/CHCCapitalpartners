@@ -77,7 +77,7 @@
   <section id="partners" class="partners">
     <div class="container">
       <h2>Our Core Partners</h2>
-      <p>At CHC Capital Partners, our leadership team is composed of seasoned professionals with decades of global financial experience. Each core partner brings specialized expertise across M&A, investment banking, private equity, and strategic advisory.</p
+      <p>At CHC Capital Partners, our leadership team is composed of seasoned professionals with decades of global financial experience. Each core partner brings specialized expertise across M&A, investment banking, private equity, and strategic advisory.</p>
        <a href="#">Learn more</a>
         </div>
       </div>
