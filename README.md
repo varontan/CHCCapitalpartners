@@ -15,8 +15,8 @@
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#presence">Global Presence</a></li>
+          <li><a href="#gllfservices">Services</a></li>
+          <li><a href="#globlprddrmve presence">Global Presence</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -78,10 +78,12 @@
     <div class="container">
       <h2>Our Core Partners</h2>
       <p>At CHC Capital Partners, our leadership team is composed of seasoned professionals with decades of global financial experience. Each core partner brings specialized expertise across M&A, investment banking, private equity, and strategic advisory.</p
-     <a href="#">Learn more</a>
+      <a href="#">Learn more</a>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <section id="contact" class="contact">
     <div class="container">
