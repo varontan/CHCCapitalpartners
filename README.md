@@ -43,7 +43,6 @@
     <h2>Our Services</h2>
     <div class="service-grid">
       <div class="service-item">
-        <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="M&A Icon"></div>
         <div class="content">
           <h3>Merger &amp; Acquisition</h3>
           <p>We advise on complex buy‑side and sell‑side transactions across borders and sectors.</p>
@@ -51,7 +50,6 @@
         </div>
       </div>
       <div class="service-item">
-        <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/2989/2989988.png" alt="Capital Markets Icon"></div>
         <div class="content">
           <h3>Capital Markets</h3>
           <p>We help clients access capital efficiently and navigate public and private markets.</p>
@@ -59,7 +57,6 @@
         </div>
       </div>
       <div class="service-item">
-        <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Strategic Advisory Icon"></div>
         <div class="content">
           <h3>Strategic Advisory</h3>
           <p>We guide leadership teams on strategy, transformation, and growth planning.</p>
@@ -67,7 +64,6 @@
         </div>
       </div>
       <div class="service-item">
-        <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="Financial Advisory Icon"></div>
         <div class="content">
           <h3>Financial Advisory</h3>
           <p>We deliver financial rigor and insight to support key transactions and board decisions.</p>
@@ -81,28 +77,8 @@
   <section id="partners" class="partners">
     <div class="container">
       <h2>Our Core Partners</h2>
-      <p>At CHC Capital Partners, our leadership team is composed of seasoned professionals with decades of global financial experience. Each core partner brings specialized expertise across M&A, investment banking, private equity, and strategic advisory.</p>
-      <div class="partner-list">
-        <div class="partner-card">
-          <img src="https://images.generated.photos/abc1.jpg" alt="Jane Smith">
-          <h3>Jane Smith</h3>
-          <p>Managing Partner, M&A</p>
-        </div>
-        <div class="partner-card">
-          <img src="https://images.generated.photos/abc2.jpg" alt="David Chen">
-          <h3>David Chen</h3>
-          <p>Partner, Capital Markets</p>
-        </div>
-        <div class="partner-card">
-          <img src="https://images.generated.photos/abc3.jpg" alt="Sara Al-Mansoori">
-          <h3>Sara Al-Mansoori</h3>
-          <p>Partner, Strategic Advisory</p>
-        </div>
-        <div class="partner-card">
-          <img src="https://images.generated.photos/abc4.jpg" alt="Lucas Fernández">
-          <h3>Lucas Fernández</h3>
-          <p>Partner, Cross-Border Transactions</p>
-        </div>
+      <p>At CHC Capital Partners, our leadership team is composed of seasoned professionals with decades of global financial experience. Each core partner brings specialized expertise across M&A, investment banking, private equity, and strategic advisory.</p
+     <a href="#">Learn more</a>
       </div>
     </div>
   </section>
